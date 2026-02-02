@@ -1,8 +1,8 @@
-# PrinciplesOfDataAnalytics
+# PrincipleOfDataAnalytics repository
 
 This is principles of data analytics repository.
 
-# Installation
+## Installation
 1. Install git
 2. Create this repository on github
 3. Cloned this repostory using vs code
