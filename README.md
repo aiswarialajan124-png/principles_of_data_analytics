@@ -1,29 +1,49 @@
 # Principles of Data Analytics - Assessment
 
-This repository contains my submission for a the Principles of Data Analtics module.
+## Overview
+This repository contains my work for a the Principles of Data Analtics module. The aim of this project is to demonstrate data analysis skills using Python, including data exploration, visualisation, and basic modelling.
 
-The purpose of this project is to demonsatrate core data analytics skills, including data sourcing, exploratory analysis, visualisation, and basic statistical modelling, using Python-based tools.
+The analysis was done using the Palmer Penguins dataset.
 
 ## Contents
-- problems.ipynb - Main anlysis notebook containing solutions and explanations
-- requirements.txt - Pyhton dependancies required to run the project.
-- data/ - Directory for datasets used in analysis.
-- img/ - Directory for generated plots or images,where applicable.
+The notebook 'problems.ipynb' includes the following:
+
+- Problem 4: Notebook setup and library imports
+- Problem 5: Loading and exploring the dataset
+- Problem 6: Visualising data distributions
+- Problem 7: Investigating relationship between variables
+- Problem 8: Modelling data using liner regression
 
 ## Set up
-To run project locally:
+To run this project locally, follow these steps:
 
-1. Clone repository:
 git clone https://github.com/aiswarialajan124-png/principles_of_data_analytics.git
 
-2. Install required dependencies:
+cd principles_of_data_analytics
+
 pip install -r requirements.txt
 
-3. Open analysis notebook:
 jupyter notebook problems.ipynb
 
-## Data
-The analysis uses the Palmer Penguins dataset,it is publicly available commonly used for data analysis and visualisation.
+## Requirements
+The following Python packages are required to run the notebook:
+ - pandas
+ - numpy
+ - matplotlib
 
-Where possible,data is loaded directly form a public source within the code to avoid manual setup steps and to ensure reproductability.
-Any externally sourced data files are stored in the 'data/' directory.
+## Dataset
+The dataset used in this project is the Palmer Penguins dataset, loaded directly from a raw GitHub URL:
+
+https://raw.githubusercontent.com/mcnakhaee/palmerpenguins/refs/heads/master/palmerpenguins/data/penguins.csv
+
+### References
+- Pandas describe(): https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.describe.html
+
+- NumPy polyfit(): https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html
+
+- Matplotlib Histogram: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.hist.html
+
+- Matplotlib Boxplot: Matplotlib Boxplot: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.boxplot.html
+
+- Matplotlib Scatterplot: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html
+
